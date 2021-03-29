@@ -67,10 +67,10 @@
     "@nodelib/fs.scandir" "2.1.3"
     fastq "^1.6.0"
 
-"@sivrad/matrix-collection-tools@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@sivrad/matrix-collection-tools/-/matrix-collection-tools-1.0.0.tgz#648a5f031d37b9e1943013c634129dbd511fa1c1"
-  integrity sha512-JK+iOdFJGDI2LJ1Vgo9lrZl/5h8lwTv6CpYAJ/9rDVhX4yDSeCazTvei8GZIwLbr5+HEmU9BNmc9WMh+VwXAaw==
+"@sivrad/matrix-collection-tools@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@sivrad/matrix-collection-tools/-/matrix-collection-tools-1.0.1.tgz#0e7c98f49edcfa4847377f911d0d5674ca7bb62a"
+  integrity sha512-8AJpJOC/ybnl0yhRkemzyKdMgMu4JF3HLosOwJOj4bEv7s2QbZ1OSzoc0tjfNlxVrBOCNf/39IP/Uof6QiRU5w==
   dependencies:
     ajv "^8.0.1"
     axios "^0.21.1"
