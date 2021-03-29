@@ -13,10 +13,10 @@
         "format": "prettier --write ./src/**",
         "test-format": "prettier --check ./src/**",
         "test": "mocha -r ts-node/register tests/**",
-        "prepublish": "tsc",
         "lint": "matrix lint",
         "build": "matrix build",
-        "mk-type": "matrix mk-type"
+        "mk-type": "matrix mk-type",
+        "publish-pkg": "tsc & yarn publish "
     },
     "devDependencies": {
         "@nix2/prettier-config": "^1.0.2",
