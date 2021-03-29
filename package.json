@@ -13,13 +13,14 @@
         "format": "prettier --write ./src/**",
         "test-format": "prettier --check ./src/**",
         "test": "mocha -r ts-node/register tests/**",
-        "lint": "eslint src/**",
         "prepublish": "tsc",
-        "build": "mtx mk-collection",
-        "mk-type": "mtx mk-type"
+        "lint": "matrix lint",
+        "build": "matrix build",
+        "mk-type": "matrix mk-type"
     },
     "devDependencies": {
         "@nix2/prettier-config": "^1.0.2",
+        "@sivrad/matrix-collection-tools": "^1.0.0",
         "@types/mocha": "8.0.4",
         "@types/node": "14.14.10",
         "@typescript-eslint/eslint-plugin": "4.9.0",
