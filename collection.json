@@ -1,3 +1,4 @@
 {
-    "$schema": "https://raw.githubusercontent.com/sivrad/matrix-schema/main/collection.json"
+    "$schema": "https://raw.githubusercontent.com/sivrad/matrix-schema/main/collection.json",
+    "label": "sdf"
 }
