@@ -5,7 +5,7 @@ on:
             - main
 jobs:
     ci:
-        name: CI tests
+        name: Continuous Integration for the collection.
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v2
@@ -13,7 +13,7 @@ jobs:
               with:
                   node-version: 12
                   registry-url: https://registry.npmjs.org/
-            - name: yarn install
+            - name: Install packages.
               run: yarn install
-            - name: lint
+            - name: Lint the collection.
               run: yarn run lint
